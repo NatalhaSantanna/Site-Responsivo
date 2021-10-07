@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Trabalho 1 – DPW</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+</head>
+
+<body>
+    <header id="topo">
+        <nav>
+            <img src="imagem/img2.png" alt="logo" height="90px">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+                <li><a href="Origem.html"> Origem</a></li>
+                <li><a href="Referencias.html">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br>
+    <div class="ref">
+        <ul style=" list-style: square;">
+            <h2> Conceito</h2>
+            <li><a href="https://www.metropoles.com/dino/habitissimo-destaca-as-especies-de-plantas-mais-indicadas-para-apartamentos-e-casas" target="_blank" onMouseOver="mostrarElemento('R1', 'block');" onMouseOut="mostrarElemento('R1', 'none');"> Habitissimo destaca as especies de plantas mais indicadas para apartamentos e casas</a>                </li>
+            <li><a href="https://www.metropoles.com/colunas/claudia-meireles/maos-na-terra-tecnicas-de-jardinagem-para-colocar-em-pratica-ja" target="_blank" onMouseOver="mostrarElemento('R2', 'block');" onMouseOut="mostrarElemento('R2', 'none');">Tecnicas de jardinagem para colocar em pratica</a></li>
+            <h2> Produtos</h2>
+            <li><a href="https://www.metropoles.com/vida-e-estilo/sete-plantas-que-viraram-tendencia-na-pandemia" target="_blank" onMouseOver="mostrarElemento('R3', 'block');" onMouseOut="mostrarElemento('R3', 'none');">Sete plantas que viraram tendencia na pandemia</a>                </li>
+            <h2> Origem</h2>
+            <li><a href="https://siteantigo.portaleducacao.com.br/conteudo/artigos/biologia/domesticacao-das-plantas/52787" target="_blank" onMouseOver="mostrarElemento('R4', 'block');" onMouseOut="mostrarElemento('R4', 'none');">Domesticacao das plantas</a>                </li>
+            <li><a href="http://www.bespa.agrarias.ufpr.br/h2aginas/livro/capitulo%202.pdf" target="_blank" onMouseOver="mostrarElemento('R5', 'block');" onMouseOut="mostrarElemento('R5', 'none');">Domesticação das plantas cultivadas, Capitulo 2</a></li>
+        </ul>
+    </div>
+    <div id="R1"><img src="Imagem/R1.png" alt="Imagem do site da primeira referencia" height="300px" width="450px"></div>
+    <div id="R2"><img src="Imagem/R2.png" alt="Imagem do site da segunda referencia" height="300px" width="450px"></div>
+    <div id="R3"><img src="Imagem/R3.png" alt="Imagem do site da terceira referencia" height="300px" width="450px"></div>
+    <div id="R4"><img src="Imagem/R4.png" alt="Imagem do site da quarta referencia" height="300px" width="450px"></div>
+    <div id="R5"><img src="Imagem/R5.png" alt="Imagem do site da quinta referencia" height="300px" width="450px"></div>
+    <h2 id="Contador"></h2>
+    <section id="Contato">
+        <h2>Contato Abaixo</h2>
+        <p style="font-size: 30pt;">Fale Conosco!</p>
+
+        <div>
+            <img src="imagem/caixa de email.png" alt="Email" height="50px" width="50px">
+            <p><a href="contato@houseplants.com.br">contato@houseplants.com.br</a></p>
+        </div>
+
+    </section>
+    <footer>
+        <a href="#topo">>>VOLTAR AO INÍCIO<<</a>
+        <p class="tooltip"><span class="tooltiptext">Integrantes da equipe</span>Desenvolvido por Natalha Santanna e Tauan Vieira.</p>
+    </footer>
+    <script>
+        console.log(fundo());
+        data_atual = new Date();
+        data_evento = new Date(2021, 08, 14);
+        console.log(dateDiferencaEmDias(data_atual, data_evento, "a oficina de cultivo indoor de plantas de grande porte"));
+    </script>
+</body>
+
+</html>

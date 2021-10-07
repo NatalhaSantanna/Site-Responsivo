@@ -1,0 +1,74 @@
+<!DOCTYPE html >
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalho 1 – DPW</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Index.css">
+    <script src="Index.js"></script>
+
+</head>
+
+<body>
+    <header id="topo">
+        <nav>
+            <img src="imagem/img2.png" alt="logo" height="90px">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Quiz.html">Quiz</a></li>
+                <li><a href="Origem.html"> Origem</a></li>
+                <li><a href="Referencias.html">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>NOSSOS PRODUTOS</h1>
+    <div id="produtos">
+        <div class="imagem">
+            <img class="imagem" src="imagem/arvore-da-felicidade.jpg" alt="Árvore da Felicidade" height="100px" width="100px">
+            <h4>Árvore da Felicidade</h4>
+            <p>R$59,90</p>
+        </div>
+
+        <div class="imagem">
+            <img class="imagem" src="Imagem/samambaia g.jpg" alt="Samambaia" height="100px" width="100px">
+            <h4>Samambaia</h4>
+            <p>R$29,90</p>
+        </div>
+
+        <div class="imagem">
+            <img class="imagem" src="imagem/suculentas.jpg" alt="Suculentas" height="100px" width="100px">
+            <h4>Suculentas</h4>
+            <p>R$49,90</p>
+        </div>
+
+        <div class="imagem">
+            <span class="tooltiptext"><img class="imagem" src="imagem/Yucca.jpg" alt="Yucca" height="100px" width="100px" ></span>
+            <h4 class="tooltip"><span class="tooltiptext">Produto exclusivo</span>Yucca</h4>
+            <p>R$69,90</p>
+            </picture>
+        </div>
+    </div>
+    <h2 id="Contador"></h2>
+    <section id="Contato">
+        <h2>Contato Abaixo</h2>
+        <p style="font-size: 30pt;">Fale Conosco!</p>
+
+        <div>
+            <img src="imagem/caixa de email.png" alt="Email" height="50px" width="50px">
+            <p><a href="contato@houseplants.com.br">contato@houseplants.com.br</a></p>
+        </div>
+    </section>
+    <footer>
+        <a href="#topo">>>VOLTAR AO INÍCIO<<</a>
+        <p>Desenvolvido por Natalha Santanna e Tauan Vieira.</p>
+    </footer>
+    <script>
+        console.log(fundo());
+        data_atual = new Date();
+        data_evento = new Date(2021, 08, 14);
+        console.log(dateDiferencaEmDias(data_atual, data_evento, "a oficina de cultivo indoor de plantas de grande porte"));
+    </script>
+</body>
+
+</html>
